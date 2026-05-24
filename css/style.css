@@ -1257,6 +1257,27 @@ body.dark-mode .topbar-title {
     color: #f1f1f1;
 }
 
+body.dark-mode .notif-panel {
+    background: #1f1d2a;
+    color: #f1f1f1;
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+body.dark-mode .notif-header,
+body.dark-mode .notif-item {
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode .notif-clear-btn {
+    color: #8fb8ff;
+}
+
+body.dark-mode .notif-icon-teal {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--white);
+}
+
 .home-section .content {
     width: min(1140px, calc(100% - 48px));
     margin: 0 auto;
