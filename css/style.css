@@ -1201,7 +1201,6 @@ select:focus {
 
 textarea { min-height: 140px; padding: 16px; }
 
-.filter-select,
 .settings-input,
 textarea,
 input {
