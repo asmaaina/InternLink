@@ -1243,7 +1243,7 @@ input {
 .modal {
     display: block;
     width: min(540px, 100%);
-    background: var(--surface);
+    background: #ffffff;
     border-radius: var(--radius-sm);
     padding: 28px;
     box-shadow: 0 22px 54px rgba(0, 0, 0, 0.18);
