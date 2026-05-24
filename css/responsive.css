@@ -1,0 +1,134 @@
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+  .sidebar {
+    transform: translateX(-100%);
+    width: var(--sidebar-w);
+  }
+
+  .sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .sidebar.close {
+    width: var(--sidebar-w);
+  }
+
+  .sidebar .logo-details {
+    justify-content: flex-start;
+  }
+
+  .sidebar .logo-details .logo_name,
+  .sidebar .nav-links li a .link_name,
+  .sidebar .nav-links li .sub-menu .link_name {
+    display: none;
+  }
+
+  .sidebar.mobile-open .logo-details .logo_name,
+  .sidebar.mobile-open .nav-links li a .link_name,
+  .sidebar.mobile-open .nav-links li .sub-menu .link_name {
+    display: inline;
+  }
+
+  .sidebar .nav-links {
+    padding-left: 0;
+  }
+
+  .sidebar .nav-links li {
+    margin-bottom: 10px;
+  }
+
+  .sidebar .nav-links li .icon-link,
+  .sidebar .nav-links li a {
+    justify-content: flex-start;
+    padding-left: 18px;
+  }
+
+  .home-section {
+    width: 100%;
+    left: 0;
+  }
+
+  .sidebar.close ~ .home-section,
+  .sidebar ~ .home-section {
+    width: 100%;
+    left: 0;
+  }
+
+  .home-section .topbar {
+    padding: 18px 16px;
+    align-items: center;
+  }
+
+  .home-section .topbar-left {
+    flex: 1 1 auto;
+    min-width: 0;
+    justify-content: flex-start;
+  }
+
+  .home-section .topbar-right {
+    flex: 0 1 auto;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 12px;
+    width: auto;
+    margin-left: auto;
+  }
+
+  .cards-grid,
+  .dashboard-grid,
+  .bottom-grid,
+  .chart-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-main {
+    padding: 0 16px 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-section .topbar {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .home-section .topbar-right {
+    width: auto;
+    justify-content: flex-end;
+    margin-top: 12px;
+    margin-left: auto;
+  }
+
+  .dashboard-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 720px) {
+  .home-section {
+    width: 100%;
+    left: 0;
+  }
+
+  .dashboard-main {
+    padding: 0 18px 30px;
+  }
+
+  .metric-card {
+    padding: 20px;
+  }
+
+  .dashboard-header {
+    align-items: stretch;
+  }
+
+  .dashboard-actions {
+    width: 100%;
+  }
+
+  .action-btn {
+    flex: 1 1 auto;
+    min-width: auto;
+  }
+}
