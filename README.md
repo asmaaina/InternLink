@@ -2,7 +2,6 @@
 InternLink is a modern internship tracking and management system designed for students to manage their internship journey in one centralized platform. The system combines internship application tracking with internship progress management features such as tasks, attendance, logbook updates, reports, and analytics.
 
 This project was developed using:
-* PHP
 * HTML5
 * CSS
 * JavaScript
@@ -66,7 +65,6 @@ This project was developed as part of a university assignment for course IMS566 
 # Author
 
 Developed by:
-
 Asma Aina binti Juraime
 Universiti Teknologi MARA (UiTM)
 Faculty of Information Science
