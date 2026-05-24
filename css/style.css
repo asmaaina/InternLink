@@ -1826,3 +1826,33 @@ body.dark-mode .notif-icon-teal { background: rgba(255, 255, 255, 0.08); color: 
 @media (max-width: 768px) {
     .form-grid { grid-template-columns: 1fr; }
 }
+
+/* FIX WHITE MODAL IN DARK MODE */
+body.dark-mode .modal {
+    background: #ffffff !important;
+    color: #333333 !important;
+}
+
+body.dark-mode .modal h3,
+body.dark-mode .modal p,
+body.dark-mode .modal label {
+    color: #333333 !important;
+}
+
+body.dark-mode .modal input,
+body.dark-mode .modal select,
+body.dark-mode .modal textarea {
+    background: #ffffff !important;
+    color: #333333 !important;
+    border: 1px solid #dcdcdc !important;
+}
+
+body.dark-mode .modal input::placeholder,
+body.dark-mode .modal textarea::placeholder {
+    color: #888888 !important;
+}
+
+body.dark-mode .modal-footer button:first-child {
+    background: #f3f3f3 !important;
+    color: #333 !important;
+}
