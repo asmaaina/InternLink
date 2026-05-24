@@ -1153,8 +1153,8 @@ tr:hover td { background: #f4edff; }
     padding: 9px 14px;
     border: 1.5px solid var(--border);
     border-radius: var(--radius-sm);
-    background: var(--surface);
-    color: var(--text);
+    background: #6a006a;
+    color: #ffffff;
     cursor: pointer;
     font-family: inherit;
 }
