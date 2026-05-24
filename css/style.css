@@ -1315,7 +1315,7 @@ input {
 .progress-bar { height: 100%; border-radius: 20px; transition: width 0.5s; }
 
 .task-progress-cell { display: grid; gap: 6px; min-width: 120px; }
-.task-progress-label { font-size: 0.9rem; font-weight: 700; color: var(--text); }
+.task-progress-label { font-size: 0.9rem; font-weight: 700; color: black; }
 
 .task-progress-wrap {
     width: 100%;
