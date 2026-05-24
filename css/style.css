@@ -555,7 +555,7 @@
 }
 
 .btn-teal {
-    background: var(--teal);
+    background: #6a006a;
     color: #ffffff;
     border: none;
 }
@@ -1564,14 +1564,14 @@ tr:hover td {
 }
 
 .btn-teal {
-  background: var(--purple-dark);
+  background: #6a006a;
   color: var(--white);
-  border-color: var(--purple-dark);
+  border-color: #6a006a;
 }
 
 .btn-teal:hover {
-  background: var(--dark-gray);
-  border-color: var(--dark-gray);
+  background: #6a006a;
+  border-color: #6a006a;
 }
 
 .btn-sm {
@@ -1967,10 +1967,29 @@ body.dark-mode .cal-day-name,
 body.dark-mode .task-row h4,
 body.dark-mode .task-row p,
 body.dark-mode .schedule-item,
-body.dark-mode .status-pill,
 body.dark-mode .logbook-entry p,
 body.dark-mode .log-text {
   color: #f4efff;
+}
+
+body.dark-mode .status-pill--high {
+  background: rgba(191, 58, 75, 0.16);
+  color: #bf3a4b;
+}
+
+body.dark-mode .status-pill--medium {
+  background: rgba(166, 111, 29, 0.18);
+  color: #a66f1d;
+}
+
+body.dark-mode .btn-teal {
+  background: #6a006a;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+body.dark-mode .btn-teal:hover {
+  background: #6a006a;
 }
 
 .sidebar {
@@ -2097,7 +2116,7 @@ body.dark-mode .log-text {
 }
 
 .btn-teal {
-  background: var(--purple-dark);
+  background: #6a006a;
   color: var(--white);
   border-color: transparent;
   box-shadow: 0 15px 35px rgba(128, 0, 128, 0.18);
